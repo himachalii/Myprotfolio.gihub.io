@@ -1,0 +1,226 @@
+/* ========================max-width : 1050px Start========================================= */
+@media only screen and (max-width: 1050px)
+{
+    /*=============================Header start==============================================*/
+    header
+    {
+        left: -300px;
+    }
+    header .footer
+    {
+        left: -300px;
+    }
+    #menubtn
+    {
+        display: block;
+    }
+    /*=============================Header End================================================*/
+
+    /* ======================Main section start======================================== */
+    main
+    {
+        margin-left: 0;
+    }
+    /* ======================Main section End======================================== */
+    /* about-section start */
+    #about
+    {
+        padding: 50px 10px;
+    }
+    #about .divider ~ p
+    {
+        font-size: 14px;
+        letter-spacing: 0px;
+        text-align: justify;
+    }
+    #about .about-col
+    {
+    flex-direction: column;
+    }
+    #about .about-col .img-col img
+    {
+     width: 50%;
+     height: auto;
+    }
+    #about .about-col .info-col h2
+    {
+    color: var(--themecolor);
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0px;
+    }
+    #about .about-col .info-col p
+    {
+    font-size: 14px;
+    letter-spacing: 0px;
+    }
+    #about .about-col .info-col .icon-list-col
+    {
+    flex-direction: column;
+    gap: 40px;
+    }
+    #about .about-col .info-col .icon-list-col .icon-list ul li
+    {
+    margin: 10px 0;
+    }
+    #about .about-col .info-col .icon-list-col .icon-list ul li strong
+{
+    font-weight: 500;
+    margin-right: 0px;
+}
+#about .about-col .info-col .icon-list-col .icon-list ul li span
+{
+    font-weight: 400;
+    font-size: 13px;
+}
+    /* about-section End */
+
+
+
+
+
+}
+/*============================= max-width : 1050px End==============================================*/
+
+/* ------------------------------------Tab View-------------------------------------------  */
+
+
+/*============================= max-width : 670px start==============================================*/
+@media only screen and (max-width: 670px)
+{
+    #home
+    {
+        padding: 30px;
+    }
+    #home .home-row h1
+    {
+    font-size: 35px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    }
+    #home .home-row h1 br
+    {
+        display: none;
+    }
+    #home .home-row p
+    {
+    font-size: 20px;
+    font-weight: 400;
+    }
+    #home .home-row p span
+    {
+    font-size: 30px;
+    color: red;
+    border-bottom: 4px solid var(--themecolor);
+    }
+
+    /* Portfolio start */
+    #portfolio
+{
+    padding: 50px 25px;
+}
+#portfolio .port-row
+{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+    /* Portfolio End */
+ /*--------------------------------------------------------------------------*/
+ 
+ /* Service start */
+ #service
+{
+    padding: 30px 25px;
+    background-color: #fff;
+}
+#service .service-row
+{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+ /* Service end */
+ /* ------------------------------------------------------------------------------- */
+ /* Contact start */
+ #contact
+ {
+     padding: 30px 10px;
+ }
+ #contact .contact-row
+ {
+     gap: 20px;
+     flex-direction: column;
+ }
+ .info
+ {
+    overflow-x: auto;
+ }
+ /* contact end */
+}
+/*============================= max-width : 670px end===============================================*/
+
+
+
+
+
+
+
+/* -----------------------------------------Mobile View-------------------------------------------  */
+
+
+/*============================= max-width : 480px start==============================================*/
+@media only screen and (max-width: 480px)
+{
+    #about .about-col .img-col img
+    {
+        width: 90%;
+        height: 400px;
+    }
+
+    /* Skill section start */
+    #skill
+    {
+        padding: 50px 15px;
+    }
+    #skill .skill-row
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+    /* Skill section End */
+
+
+    /* Portfolio start */
+    #portfolio
+{
+    padding: 30px 15px;
+}
+#portfolio .port-row
+{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+    /* Portfolio End */
+
+ /*--------------------------------------------------------------------------*/
+ 
+ /* Service start */
+ #service
+{
+    padding: 30px 10px;
+    background-color: #fff;
+}
+#service .service-row
+{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+ /* Service end */
+  /* -------------------------------------------------------------------------------- */
+
+}
+/*============================= max-width : 480px end===============================================*/
+
